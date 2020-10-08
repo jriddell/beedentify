@@ -13,6 +13,6 @@
   {"active":false, "url": "assets/img/g-rhubarb.jpg", "type": "plant", "score": {"Giant Rhubarb": 1}},
   {"active":false, "url": "assets/img/hemlock1.jpg", "type": "plant", "score": {"Hemlock": 1}},
   {"active":false, "url": "assets/img/hemlock2.jpg", "type": "plant", "score": {"Hemlock": 1}},
-  {"active":false, "url": "assets/img/HG-flower.jpg", "type": "plant", "score": {"Giant Hogweed": 1}}
-    {"active":false, "url": "assets/img/HG-stem.jpg", "type": "plant", "score": {"Giant Hogweed": 1}}
+  {"active":false, "url": "assets/img/HG-flower.jpg", "type": "plant", "score": {"Giant Hogweed": 1}},
+  {"active":false, "url": "assets/img/HG-stem.jpg", "type": "plant", "score": {"Giant Hogweed": 1}}
 ]
