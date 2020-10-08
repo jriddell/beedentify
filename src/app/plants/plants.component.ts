@@ -6,7 +6,7 @@ import { NgbModal, NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
   templateUrl: './plants.component.html',
   styleUrls: ['./plants.component.css']
 })
-export class InsectsComponent implements OnInit {
+export class PlantsComponent implements OnInit {
   type: string;
 
   constructor(public activeModal: NgbActiveModal) {}
