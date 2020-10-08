@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { NgbModal, NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
-  selector: 'app-insects',
-  templateUrl: './insects.component.html',
-  styleUrls: ['./insects.component.css']
+  selector: 'app-plants',
+  templateUrl: './plants.component.html',
+  styleUrls: ['./plants.component.css']
 })
 export class InsectsComponent implements OnInit {
   type: string;
