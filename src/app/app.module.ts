@@ -16,6 +16,7 @@ import { ResultsComponent } from './results/results.component';
 import { OrderByObjectPropertyPipe } from './orderbyobjectproperty.pipe';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { InsectsComponent } from './insects/insects.component';
+import { PlantsComponent } from './plants/plants.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { InsectsComponent } from './insects/insects.component';
     ResultsComponent,
     OrderByObjectPropertyPipe,
     WelcomeComponent,
-    InsectsComponent
+    InsectsComponent,
+    PlantsComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,7 @@ import { InsectsComponent } from './insects/insects.component';
     LazyLoadImageModule
   ],
   providers: [ImageDataService],
-  entryComponents: [WelcomeComponent, InsectsComponent],
+  entryComponents: [WelcomeComponent, PlantsComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
