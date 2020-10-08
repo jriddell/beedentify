@@ -1,7 +1,7 @@
 [
 {"active":false, "url": "assets/img/angelica-flower.jpg", "type": "plant", "score": {"Angelica": 1}},
 {"active":false, "url": "assets/img/Angelica-stem.jpg", "type": "plant", "score": {"Angelica": 1}},
-{"active":false, "url": "assets/img/butter-burr.jpg", "type": "plant", "score": {"Giant Butterburr": 1}},
+{"active":false, "url": "assets/img/butter-burr.jpg", "type": "plant", "score": {"Giant Butterbur": 1}},
   {"active":false, "url": "assets/img/c-hogweed-flower.jpg", "type": "plant", "score": {"Common Hogweed": 1}},
   {"active":false, "url": "assets/img/c-hogweed-head.jpg", "type": "plant", "score": {"Common Hogweed": 1}},
   {"active":false, "url": "assets/img/c-hogweed-leaf.jpg", "type": "plant", "score": {"Common Hogweed": 1}},
