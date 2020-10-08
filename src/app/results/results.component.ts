@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ImageDataService } from "../image-data.service";
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { InsectsComponent } from '../insects/insects.component';
+import { PlantsComponent } from '../plants/plants.component';
 
 @Component({
   selector: 'app-results',
@@ -47,7 +48,7 @@ export class ResultsComponent implements OnInit {
   }
 
   insectModal(type) {
-    const insectModal = this.modal.open(InsectsComponent, {size: 'lg', centered: true});
+    const insectModal = this.modal.open(PlantsComponent, {size: 'lg', centered: true});
     insectModal.componentInstance.type = type;
 
   }
