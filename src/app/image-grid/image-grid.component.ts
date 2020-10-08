@@ -10,7 +10,7 @@ import { ImageDataService } from "../image-data.service";
 })
 export class ImageGridComponent implements OnInit {
   image_data: Array<object>;
-  private filter_types = {"plants": true, "locations": true};
+  private filter_types = {"insects": true, "locations": true};
   ft_keys = Object.keys(this.filter_types);
   zoom_enabled: boolean = false;
 
