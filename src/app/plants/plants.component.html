@@ -1,0 +1,135 @@
+<div [ngSwitch]="type">
+  <div *ngSwitchCase="'Honey Bee'">
+    <div class="modal-header">
+      <h3 class="modal-title">Your match: <strong>Honey Bees</strong></h3>
+      <button type="button" class="close" (click)="activeModal.dismiss('Cross click')"></button>
+    </div>
+    <div class="modal-body">
+      <p>Honey bees are small, slightly hairy, and muted in colour - usually shades of brown and black, rather than the bright yellow of wasps or hornets.
+      They are only usually aggressive when defending their hive, and are not aggressive like wasps when foraging away from home.
+      Honey bees can often be seen carrying pollen on their hind legs as 'pollen baskets'.</p>
+
+      <h4>Swarms</h4>
+      <p>A swarm consists of about half a colony - the old queen and flying bees. They settle in a convenient location before moving
+        on to a permanent new location.  This is the natural way in which honey bees increase their numbers.</p>
+
+      <p>If you encounter a swarm:</p>
+      <ul>
+        <li>Keep people, children, pets and other animals away from the swarm.</li>
+        <li>Don't do anything to provoke or disturb the swarm to try to get it to move on. The swarm will only move when it is ready to do so, and interference might result in stings!</li>
+        <li>If you need to move around near the swarm, do so in a calm, controlled manner, avoiding making any sudden movements or loud noises. Swarms aren't generally aggressive.</li>
+      </ul>
+
+      <p>If you are resident in Edinburgh and the Lothians, you can report a swarm via the <a href="https://www.edinburghbeekeepers.org.uk/swarms">Edinburgh and Midlothian Beekeepers' Association</a></p>
+
+      <p>Otherwise, you can contact a beekeeper via your local beekeeping association:</p>
+      <ul>
+        <li><a href="https://www.bbka.org.uk/find-beekeeping-near-you">England</a></li>
+        <li><a href="https://www.scottishbeekeepers.org.uk/about/affiliated-beekeeping-associations">Scotland</a></li>
+	<li><a href="http://www.wbka.com/associations/">Wales</a></li>
+        <li><a href="https://www.ubka.org/about/local-associations/">Northern Ireland</a></li>
+      </ul>
+    </div>
+
+    <h4>Colonies</h4>
+    <p>The other situation in which you might encounter honey bees is if they have taken up permanent residence in a location such as a compost bin,
+      chimney or roof space. As with swarms, you can seek assistance from a beekeeper via your local association.</p>
+
+    <p>Be aware however that once a colony is settled, it can be difficult to access it to remove the bees. In these cases, the only option may
+      be to use a <strong>Pest Control Company</strong> to deal with them, if they are causing a nuisance.</p>
+  </div>
+
+  <div *ngSwitchCase="'Bumblebee'">
+    <div class="modal-header">
+      <h3 class="modal-title">Your match: <strong>Bumblebees</strong></h3>
+      <button type="button" class="close" (click)="activeModal.dismiss('Cross click')"></button>
+    </div>
+    <div class="modal-body">
+
+      <p>Bumblebees are generally large, round and visibly furry, and come in a variety of species and colours.
+      They are fairly common in gardens throughout the UK during the spring and summer, and often build nests in compost heaps,
+      under decking or garden sheds and other warm dry places like old mouse nests.</p>
+
+      <p>They are generally peaceful, and while they can sting rarely do so unless their
+      nest is disturbed. However the Tree Bumble Bee - a relatively new species to the UK, can be more defensive.
+      Its preferred nesting site is in bird boxes or roof eaves.</p>
+
+      <p>Bumblebees are wild insects that occur naturally throughout the country and are hugely important pollinators.
+      Unfortunately, due to loss of habitat and the prevalence of pesticide use, their numbers are decreasing and some species
+      are already under severe threat of extinction.</p>
+
+      <p>Bumble bees only nest in a location for a single season, so the nest will be
+      abandoned by winter - so in most cases they can just be left where they are for the summer.  Otherwise, if you need to move
+      them the only option is to use a <strong>Pest Control Company</strong> - beekeepers aren't able to help with Bumblebees.</p>
+
+      <p>More information on Bumblebees is available from <a href="https://bumblebeeconservation.org">The Bumblebee Conservation Trust</a></p>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'Solitary Bee'">
+    <div class="modal-header">
+      <h3 class="modal-title">Your match: <strong>Solitary Bees</strong></h3>
+      <button type="button" class="close" (click)="activeModal.dismiss('Cross click')"></button>
+    </div>
+    <div class="modal-body">
+
+      <p>There are many species of these insects which occur frequently around our homes and gardens in spring and summer.
+        They are all beneficial to the environment and pose no threat to humans.</p>
+
+      <p>Solitary bees are so called since, unlike other bees and wasps, they don't form colonies - instead a single bee
+        constructs a single nesting hole. (Though you can find several such holes together, giving the impression of
+        a colony of insects).</p>
+
+      <p>Most species lay eggs either in holes in the ground, earth banks, or stonework/masonry. They look very similar to honey bees,
+        some carry pollen on their hind legs, while others carry it on their stomachs.
+        They are also generally only present in spring and early summer, and die off after laying their eggs -
+        which will emerge as adults in the following spring.</p>
+
+      <p>More information on solitary bees is available from the <a href="http://www.wildlifetrusts.org/reserves-wildlife/guide-solitary-bees-britain">Wildlife Trust</a>.</p>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'Hornet'">
+    <div class="modal-header">
+      <h3 class="modal-title">Your match: <strong>Hornets</strong></h3>
+      <button type="button" class="close" (click)="activeModal.dismiss('Cross click')"></button>
+    </div>
+    <div class="modal-body">
+      <p>Hornets are similar to wasps - they build nests out of paper and plant materials.
+      However they are less common than wasps, and generally less aggressive - even though they are
+      often much larger!</p>
+
+      <p>Like wasps, if you have a problem with hornets, then the best option is to contact
+        a <strong>Pest Control Company</strong> to remove them. Hornets, though less likely to sting, do deliver
+        a much more painful sting than wasps, so DIY methods or removal are best avoided!</p>
+
+      <p><strong>There is currently a threat from the Asian Hornet, which was accidentally introduced
+        into France, and is at risk of entering the UK. If this species is seen, it should be reported
+        <a href="http://www.nonnativespecies.org/factsheet/factsheet.cfm?speciesId=3826">Asian Hornet Reporting</a></strong></p>
+    </div>
+  </div>
+
+
+  <div *ngSwitchCase="'Wasp'">
+    <div class="modal-header">
+      <h3 class="modal-title">Your Match: <strong>Wasps</strong></h3>
+      <button type="button" class="close" (click)="activeModal.dismiss('Cross click')"></button>
+    </div>
+    <div class="modal-body">
+
+      <p>Wasps are smooth-shelled and shiny, with brighter, distinct yellow and black stripes, and lack the hairs that honey bees and bumble bees have.
+      They are more inquisitive and aggressive than bees, and are attracted to sweet smelling or fermenting things, such as jam, rotten fruit, alcohol.
+
+      <p>Wasps can sting repeatedly, and are much more likely to do so than honey or bumble bees - especially later on in the season.</p>
+
+      <p>Wasps, like Hornets, build their nests out of paper, made of chewed up wood and plant material. They tend to nest in sheltered locations,
+        such as sheds, bird boxes, or roof eaves, but can also nest in the ground.</p>
+
+      <p>If you have an issue with wasps, then you should contact a <strong>Pest Control Company</strong> who will be able to remove them.</p>
+    </div>
+  </div>
+
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-secondary" (click)="activeModal.close('Close click')">Close</button>
+</div>
