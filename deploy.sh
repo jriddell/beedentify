@@ -2,17 +2,20 @@
 
 set -ex
 
-git checkout hogweed
+$plant = "giant-hogweed"
+git checkout ${plant}
 git pull
-mkdir -p ../plantdentify.edinburghlinux.co.uk/hogweed
-ng build --prod --outputPath=../plantdentify.edinburghlinux.co.uk/hogweed
+mkdir -p ../plantdentify.edinburghlinux.co.uk/${plant}
+ng build --prod --output-path=../plantdentify.edinburghlinux.co.uk/${plant} --base-href https://plantdentify.edinburghlinux.co.uk/${plant}/
 
-git checkout foo
+$plant = "japanese-knotweed"
+git checkout ${plant}
 git pull
-mkdir -p ../plantdentify.edinburghlinux.co.uk/foo
-ng build --prod --outputPath=../plantdentify.edinburghlinux.co.uk/foo
+mkdir -p ../plantdentify.edinburghlinux.co.uk/${plant}
+ng build --prod --output-path=../plantdentify.edinburghlinux.co.uk/${plant} --base-href https://plantdentify.edinburghlinux.co.uk/${plant}/
 
-git checkout bar
+$plant = "himalayan-balsam"
+git checkout ${plant}
 git pull
-mkdir -p ../plantdentify.edinburghlinux.co.uk/bar
-ng build --prod --outputPath=../plantdentify.edinburghlinux.co.uk/bar
+mkdir -p ../plantdentify.edinburghlinux.co.uk/${plant}
+ng build --prod --output-path=../plantdentify.edinburghlinux.co.uk/${plant} --base-href https://plantdentify.edinburghlinux.co.uk/${plant}/
