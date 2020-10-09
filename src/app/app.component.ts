@@ -9,7 +9,7 @@ import { ImageDataService } from "./image-data.service";
 })
 export class AppComponent {
   image_data: Array<object>;
-  title: string = "Beedentify";
+  title: string = "BeedentifyYY";
 
 
   constructor(private http: HttpClient, private imgDataSvc: ImageDataService) {}

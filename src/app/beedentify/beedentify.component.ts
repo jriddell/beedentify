@@ -9,7 +9,7 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 })
 export class BeedentifyComponent {
 
-  title = 'Beedentify';
+  title = 'BeedentifyXX';
   image_data: Array<object>;
 
   constructor(private modal: NgbModal) {}
