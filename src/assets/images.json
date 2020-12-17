@@ -1,18 +1,10 @@
 [
-{"active":false, "url": "assets/img/angelica-flower.jpg", "type": "plants", "score": {"Angelica": 1}},
-{"active":false, "url": "assets/img/Angelica-stem.jpg", "type": "plants", "score": {"Angelica": 1}},
-{"active":false, "url": "assets/img/butter-burr.jpg", "type": "plants", "score": {"Butterbur": 1}},
-  {"active":false, "url": "assets/img/c-hogweed-flower.jpg", "type": "plants", "score": {"Common Hogweed": 1}},
-  {"active":false, "url": "assets/img/c-hogweed-head.jpg", "type": "plants", "score": {"Common Hogweed": 1}},
-  {"active":false, "url": "assets/img/c-hogweed-leaf.jpg", "type": "plants", "score": {"Common Hogweed": 1}},
-  {"active":false, "url": "assets/img/Coltsfoot-leaves.jpg", "type": "plants", "score": {"Coltsfoot": 1}},
-  {"active":false, "url": "assets/img/c-parsely-flower.jpg", "type": "plants", "score": {"Cow Parsley": 1}},
-  {"active":false, "url": "assets/img/c-parsley.jpg", "type": "plants", "score": {"Cow Parsley": 1}},
-  {"active":false, "url": "assets/img/GH-bud.jpg", "type": "plants", "score": {"Giant Hogweed": 1}},
-  {"active":false, "url": "assets/img/GH-heads.jpg", "type": "plants", "score": {"Giant Hogweed": 1}},
-  {"active":false, "url": "assets/img/g-rhubarb.jpg", "type": "plants", "score": {"Giant Rhubarb": 1}},
-  {"active":false, "url": "assets/img/hemlock1.jpg", "type": "plants", "score": {"Hemlock": 1}},
-  {"active":false, "url": "assets/img/hemlock2.jpg", "type": "plants", "score": {"Hemlock": 1}},
-  {"active":false, "url": "assets/img/HG-flower.jpg", "type": "plants", "score": {"Giant Hogweed": 1}},
-  {"active":false, "url": "assets/img/HG-stem.jpg", "type": "plants", "score": {"Giant Hogweed": 1}}
-]
+{"active":false, "url": "assets/img/dogs-mercury.jpg", "type": "plants", "score": {"Dogs Mercury": 1}},
+{"active":false, "url": "assets/img/foxglove.jpg", "type": "plants", "score": {"Foxglove": 1}},
+{"active":false, "url": "assets/img/g-rosebay.jpg", "type": "plants", "score": {"Giant Rosebay Willowherb": 1}},
+  {"active":false, "url": "assets/img/hardhack.jpg", "type": "plants", "score": {"Hardhack": 1}},
+  {"active":false, "url": "assets/img/HB-flower.jpg", "type": "plants", "score": {"Himalayan Balsam": 1}},
+  {"active":false, "url": "assets/img/HB-leaf.jpg", "type": "plants", "score": {"Himalayan Balsam": 1}},
+  {"active":false, "url": "assets/img/HB-stand.jpg", "type": "plants", "score": {"Himalayan Balsam": 1}},
+  {"active":false, "url": "assets/img/HB-stem.jpg", "type": "plants", "score": {"Himalayan Balsam": 1}},
+  
