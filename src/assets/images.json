@@ -1,10 +1,11 @@
 [
-{"active":false, "url": "assets/img/dogs-mercury.jpg", "type": "plants", "score": {"Dogs Mercury": 1}},
-{"active":false, "url": "assets/img/foxglove.jpg", "type": "plants", "score": {"Foxglove": 1}},
-{"active":false, "url": "assets/img/g-rosebay.jpg", "type": "plants", "score": {"Giant Rosebay Willowherb": 1}},
+  {"active":false, "url": "assets/img/dogs-mercury.jpg", "type": "plants", "score": {"Dogs Mercury": 1}},
+  {"active":false, "url": "assets/img/foxglove.jpg", "type": "plants", "score": {"Foxglove": 1}},
+  {"active":false, "url": "assets/img/g-rosebay.jpg", "type": "plants", "score": {"Giant Rosebay Willowherb": 1}},
   {"active":false, "url": "assets/img/hardhack.jpg", "type": "plants", "score": {"Hardhack": 1}},
   {"active":false, "url": "assets/img/HB-flower.jpg", "type": "plants", "score": {"Himalayan Balsam": 1}},
   {"active":false, "url": "assets/img/HB-leaf.jpg", "type": "plants", "score": {"Himalayan Balsam": 1}},
   {"active":false, "url": "assets/img/HB-stand.jpg", "type": "plants", "score": {"Himalayan Balsam": 1}},
-  {"active":false, "url": "assets/img/HB-stem.jpg", "type": "plants", "score": {"Himalayan Balsam": 1}},
-  
+  {"active":false, "url": "assets/img/HB-stem.jpg", "type": "plants", "score": {"Himalayan Balsam": 1}}
+]
+
