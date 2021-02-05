@@ -1,15 +1,15 @@
 [
-{"active":false, "url": "assets/img/bindweed1.jpg", "type": "plants", "score": {"Bindweed": 1}},
-{"active":false, "url": "assets/img/bird-cherry.jpg", "type": "plants", "score": {"Bird Cherry": 1}},
-{"active":false, "url": "assets/img/bird-cherry2.jpg", "type": "plants", "score": {"Bird Cherry": 1}},
+  {"active":false, "url": "assets/img/bindweed1.jpg", "type": "plants", "score": {"Bindweed": 1}},
+  {"active":false, "url": "assets/img/bird-cherry.jpg", "type": "plants", "score": {"BirdCherry": 1}},
+  {"active":false, "url": "assets/img/bird-cherry2.jpg", "type": "plants", "score": {"BirdCherry": 1}},
   {"active":false, "url": "assets/img/dogwood1.jpg", "type": "plants", "score": {"Dogwood": 1}},
   {"active":false, "url": "assets/img/dogwood2.jpg", "type": "plants", "score": {"Dogwood": 1}},
-  {"active":false, "url": "assets/img/Fishpolebamboo.jpg", "type": "plants", "score": {"Fishpole Bamboo": 1}},
-  {"active":false, "url": "assets/img/Giant-Knotweed-Hale-Bollin-Leaf.jpg", "type": "plants", "score": {"Giant Knotweed": 1}},
-  {"active":false, "url": "assets/img/g-knotweed.jpg", "type": "plants", "score": {"Giant Knotweed": 1}},
-  {"active":false, "url": "assets/img/JK-flower.jpg", "type": "plants", "score": {"Japanese Knotweed": 1}},
-  {"active":false, "url": "assets/img/JK-leaf.jpg", "type": "plants", "score": {"Japanese Knotweed": 1}},
-  {"active":false, "url": "assets/img/JK-shoots.jpg", "type": "plants", "score": {"Japanese Knotweed": 1}},
-  {"active":false, "url": "assets/img/JK-stand.jpg", "type": "plants", "score": {"Japanese Knotweed": 1}},
-  {"active":false, "url": "assets/img/russian-vine.jpg", "type": "plants", "score": {"Russian Vine": 1}}
-  ]
+  {"active":false, "url": "assets/img/Fishpolebamboo.jpg", "type": "plants", "score": {"FishpoleBamboo": 1}},
+  {"active":false, "url": "assets/img/Giant-Knotweed-Hale-Bollin-Leaf.jpg", "type": "plants", "score": {"GiantKnotweed": 1}},
+  {"active":false, "url": "assets/img/g-knotweed.jpg", "type": "plants", "score": {"GiantKnotweed": 1}},
+  {"active":false, "url": "assets/img/JK-flower.jpg", "type": "plants", "score": {"JapaneseKnotweed": 1}},
+  {"active":false, "url": "assets/img/JK-leaf.jpg", "type": "plants", "score": {"JapaneseKnotweed": 1}},
+  {"active":false, "url": "assets/img/JK-shoots.jpg", "type": "plants", "score": {"JapaneseKnotweed": 1}},
+  {"active":false, "url": "assets/img/JK-stand.jpg", "type": "plants", "score": {"JapaneseKnotweed": 1}},
+  {"active":false, "url": "assets/img/russian-vine.jpg", "type": "plants", "score": {"RussianVine": 1}}
+]
